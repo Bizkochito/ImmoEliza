@@ -10,28 +10,30 @@ To a get request, answers "alive" if the server is running.
 To a get request, answers with a message detailing how to properly post data to get a price prediction.
 To a post request, providing data with the following format:
      - with OPTIONAL denoting an optional input (area and zip_code are required)
-     - several strings meaning you have to pick one out of them:
-{
- - "area": int,
- -  "zip_code": int,
- - "property_type": OPTIONAL "APARTMENT", "HOUSE", "OTHERS"
- - "rooms_number": OPTIONAL int, 
+     - several strings meaning you have to pick one out of them:  
+     
+{  
 
- - "land_area": OPTIONAL int,
- - "garden": OPTIONAL false, true
- - "garden_area": OPTIONAL int,
- - "equipped_kitchen": OPTIONAL true, false
- - "full_address": OPTIONAL "string",
- - "swimming_pool": OPTIONAL false, true
- - "furnished": OPTIONAL false, true
- - "open_fire": OPTIONAL false, true
- - "terrace": OPTIONAL false, true
- - "terrace_area": OPTIONAL int,
- - "facades_number": OPTIONAL int,
- - "building_state": OPTIONAL "NEW", "GOOD", "TO RENOVATE", "JUST RENOVATED","TO REBUILD"
-}
+ "area": int,    
+ "zip_code": int,  
+   
+ "property_type": OPTIONAL "APARTMENT", "HOUSE", "OTHERS",  
+ "rooms_number": OPTIONAL int,  
+ "land_area": OPTIONAL int,  
+ "garden": OPTIONAL false, true  
+ "garden_area": OPTIONAL int,  
+ "equipped_kitchen": OPTIONAL true, false  
+ "full_address": OPTIONAL "string",  
+ "swimming_pool": OPTIONAL false, true  
+ "furnished": OPTIONAL false, true  
+ "open_fire": OPTIONAL false, true  
+ "terrace": OPTIONAL false, true  
+ "terrace_area": OPTIONAL int,  
+ "facades_number": OPTIONAL int,  
+ "building_state": OPTIONAL "NEW", "GOOD", "TO RENOVATE", "JUST RENOVATED","TO REBUILD"  
+}  
     
-    The API give an output such as:
-    {"prediction" : prediction}
+    The API gives an output such as:  
+    {"prediction" : prediction}  
 
     
