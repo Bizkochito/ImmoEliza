@@ -1,2 +1,1 @@
-# ImmoEliza
-ImmoEliza deployed app
+# challenge-deploymeny
