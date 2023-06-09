@@ -12,9 +12,8 @@ To a post request, providing data with the following format:
 - with OPTIONAL denoting an optional input (area and zip_code are required)  
 - several strings meaning you have to pick one out of them:    
      
-     {  
 
-      "area": int,    
+      {"area": int,    
       "zip_code": int,  
 
       "property_type": OPTIONAL "APARTMENT", "HOUSE", "OTHERS",  
@@ -30,8 +29,7 @@ To a post request, providing data with the following format:
       "terrace": OPTIONAL false, true  
       "terrace_area": OPTIONAL int,  
       "facades_number": OPTIONAL int,  
-      "building_state": OPTIONAL "NEW", "GOOD", "TO RENOVATE", "JUST RENOVATED","TO REBUILD"  
-     }  
+      "building_state": OPTIONAL "NEW", "GOOD", "TO RENOVATE", "JUST RENOVATED","TO REBUILD"}    
     
     The API gives an output such as:  
     {"prediction" : prediction}  
