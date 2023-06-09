@@ -10,7 +10,7 @@ To a get request, answers "alive" if the server is running.
 To a get request, answers with a message detailing how to properly post data to get a price prediction.
 To a post request, providing data with the following format:  
 - with OPTIONAL denoting an optional input (area and zip_code are required)  
-- - several strings meaning you have to pick one out of them:    
+- several strings meaning you have to pick one out of them:    
      
 {  
 
